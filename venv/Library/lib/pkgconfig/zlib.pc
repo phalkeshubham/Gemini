@@ -1,0 +1,13 @@
+prefix=C:/Users/MSI/geminillm/venv/Library
+exec_prefix=C:/Users/MSI/geminillm/venv/Library
+libdir=C:/Users/MSI/geminillm/venv/Library/lib
+sharedlibdir=C:/Users/MSI/geminillm/venv/Library/lib
+includedir=C:/Users/MSI/geminillm/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
